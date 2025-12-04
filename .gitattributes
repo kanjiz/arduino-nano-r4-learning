@@ -1,0 +1,27 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# Arduino files
+*.ino text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.h text eol=lf
+*.c text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# Configuration files
+*.ini text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Git files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+
+# Binary files
+*.bin binary
+*.hex binary
